@@ -39,7 +39,7 @@ sp.delete("Freshworks")
 
 # ACCESS using multiple threads :
 #Thread 1
-t1=threading.Thread(target=create,args=(key,value,timeout)) #for reate operation
+t1=threading.Thread(target=create,args=(key,value,timeout)) #for Create operation
 t1.start()
 
 #Thread 2
