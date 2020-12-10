@@ -47,6 +47,6 @@ t2=threading.Thread(target=read,args=(key,)) #for Read operation
 t2.start()
 
 #Thread 3
-t2=threading.Thread(target=delete,args=(key,)) #for Delete operation
-t2.start()
+t3=threading.Thread(target=delete,args=(key,)) #for Delete operation
+t3.start()
 # until  tn i.e Thread n and for given threads
